@@ -1,0 +1,90 @@
+canonical_identifier: bkk:krp/KR6j0565/v1
+canonical_location: https://kanripo.org/bkk/KR6j0565/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大吉義神呪經
+  identifiers:
+    alt_id:
+    - T21n1335
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1335.xml
+    old_id: T21n1335
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 甲
+  label: 甲
+  source_xml_id: wit4
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0565_000.yaml, hash: 'sha256:5d8517b5f9f9d9db2951fd289cc3e157993ed1dd05b45b91eee5b590cfcb5f39'}
+  - {seq: 1, filename: KR6j0565_001.yaml, hash: 'sha256:934fa5a0f1ddd6c8255e78d2e9271150ce604de199085f27651f20421d1008aa'}
+  - {seq: 2, filename: KR6j0565_002.yaml, hash: 'sha256:9d3126e315e66a75d21280bb55680a718dd370ab523577cce32769fb1b900217'}
+  - {seq: 3, filename: KR6j0565_003.yaml, hash: 'sha256:90da3d629ef39a3ca271d1d316b36fe49a351bfa1dbb231e5ec948f0f16e9d33'}
+  - {seq: 4, filename: KR6j0565_004.yaml, hash: 'sha256:eb795fe258400a21b2d888da0af54511450d4464a6e71f16ce01b2931202705b'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0565_001.markers.yaml, hash: 'sha256:de3fa030d09fb9261a6f6dfb1289e48b2ef2413f236b253b57078ac718c6420e'}
+  - {seq: 2, role: markers, filename: assets/KR6j0565_002.markers.yaml, hash: 'sha256:951a705bfec14fca1f39b35c8ccd8737604fde8c46b21e5d812576087201d7f2'}
+  - {seq: 3, role: markers, filename: assets/KR6j0565_003.markers.yaml, hash: 'sha256:df7c5e05bc7aab7a1d83d9e7ae131c54366494f4e7392a883bb015015a32dade'}
+  - {seq: 4, role: markers, filename: assets/KR6j0565_004.markers.yaml, hash: 'sha256:460108146d0f7a85add042491c6dc0a83e0c5b392ae86a5c8e010a914e16bb3c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0565_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3655
+  label: 大吉義神呪經卷第一
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6j0565_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 4494
+  label: 大吉義神呪經卷第二
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6j0565_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 3783
+  label: 大吉義神呪經卷第三
+  type: juan
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6j0565_T_004-juan-start
+    span:
+    - body
+    - 0
+    - 4135
+  label: 大吉義神呪經卷第四
+  type: juan
+  level: 1
+hash: sha256:795f961dc1f08eec3d93a246edb8f41c3546c60412b97c636644f7451caea022
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
