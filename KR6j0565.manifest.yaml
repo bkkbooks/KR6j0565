@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0565/v1
 canonical_location: https://kanripo.org/bkk/KR6j0565/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 大吉義神呪經
   identifiers:
@@ -34,16 +34,16 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0565_000.yaml, hash: 'sha256:5d8517b5f9f9d9db2951fd289cc3e157993ed1dd05b45b91eee5b590cfcb5f39'}
-  - {seq: 1, filename: KR6j0565_001.yaml, hash: 'sha256:2950bef8bf09172abcf7c949a1cabdc32990997b21c017dc017e0dec7e51818d'}
-  - {seq: 2, filename: KR6j0565_002.yaml, hash: 'sha256:efbf570144669a115743cc6bc0ba9aef1e21515001acdfa8e87677b2d8f3c201'}
-  - {seq: 3, filename: KR6j0565_003.yaml, hash: 'sha256:60f41ec3a8d4607f477288416d9e85cee5991e9b4a16aaacacc7f2503d2eafd5'}
-  - {seq: 4, filename: KR6j0565_004.yaml, hash: 'sha256:15bd0ec02a43209e4c4156c243ff7f0b71fd8c0a0ad744513f3c445d526bc248'}
+  - {seq: 1, filename: KR6j0565_001.yaml, hash: 'sha256:ab295f9b650f98d8382c68493e9f8b9d6e435ab8b7e11f146f86a6793cb63694'}
+  - {seq: 2, filename: KR6j0565_002.yaml, hash: 'sha256:16b49a3eb9d81179f1603e0e3d6c18b5a95c870273378fe0009c59613ed7885e'}
+  - {seq: 3, filename: KR6j0565_003.yaml, hash: 'sha256:f2531023362df76c01fc63e86b0fd0b269bad19224ba6d28b753033ecc205463'}
+  - {seq: 4, filename: KR6j0565_004.yaml, hash: 'sha256:897106d42e8bf01542b480b4b66f1630bc2db32ce0f727271a5b43e902d5547e'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0565_000.markers.yaml, hash: 'sha256:bd2141b9f5be2e8d9650deb9ceb9509e531e926ed7c188979c877871d6565761'}
-  - {seq: 1, role: markers, filename: assets/KR6j0565_001.markers.yaml, hash: 'sha256:58fa95cfd42ad5cbf27d86297cf037d2ca8df31a25dc6121e80bf13a4e51bee8'}
-  - {seq: 2, role: markers, filename: assets/KR6j0565_002.markers.yaml, hash: 'sha256:c320b71bd49049e0409771a06756d89cbc06ee2c9cc03fbdf43d9454b76375e9'}
-  - {seq: 3, role: markers, filename: assets/KR6j0565_003.markers.yaml, hash: 'sha256:83bac3e23c9e658aec52e97d1d66b8c9a7cd64001457593c62df842f83795d2c'}
-  - {seq: 4, role: markers, filename: assets/KR6j0565_004.markers.yaml, hash: 'sha256:3638a6d88ae3f2eef137a8c683d3160ead23cf78e7ce6c7ba229b9f8fd88f2ea'}
+  - {seq: 1, role: markers, filename: assets/KR6j0565_001.markers.yaml, hash: 'sha256:cb6ac1d3d1468825f09f0063fde46e965dee00b7af902b0f22835db549b481bc'}
+  - {seq: 2, role: markers, filename: assets/KR6j0565_002.markers.yaml, hash: 'sha256:4479c87a7c14c855ee9da7810bc1a0aec6fe1bc433513da2a2e059b532cc23d2'}
+  - {seq: 3, role: markers, filename: assets/KR6j0565_003.markers.yaml, hash: 'sha256:6c4b7fdb5672d6824a5755f939e0c0396df32422f456fba64854168f2c446530'}
+  - {seq: 4, role: markers, filename: assets/KR6j0565_004.markers.yaml, hash: 'sha256:adc79e168cca820797097f5bf9acc466df8578a11853441f9ecd8b566fbbf82e'}
 table_of_contents:
 - ref:
     seq: 1
@@ -85,4 +85,7 @@ table_of_contents:
   label: 大吉義神呪經卷第四
   type: juan
   level: 1
-hash: sha256:3407479bb1a6aa7e5e5da59bb358730e8d96863b94c642432efc66d857684c22
+hash: sha256:0e68fd78cba043f1757691b4026499d52279907530bd0422fb4204e9ebed290c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
